@@ -1,0 +1,40 @@
+body {
+    box-sizing: border-box;
+}
+p,span,ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.statistics {
+    width: 500px;
+}
+.title {
+    text-align: center;
+}
+.statList {
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.item + .item {
+    
+}
+.label {
+}
+.percentage {
+}
